@@ -6,7 +6,7 @@ router.use("/", homeRoutes);
 router.use("/api", apiRoutes);
 
 router.get("/", (req, res) => {
-  res.render("main");
+  res.render("homepage");
 });
 
 module.exports = router;
